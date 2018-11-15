@@ -1,2 +1,4 @@
 Sawadikap
+.
+.
 Ohayô
