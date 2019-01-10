@@ -1,0 +1,118 @@
+.ayo-login {
+	margin-top: 5%;
+}
+
+.ayo-login h4 {
+	color: #fff;	
+	animation: animasiayologin 1s infinite alternate forwards;
+	text-shadow: 2px 1px 1px #999;
+	opacity: 0;
+}
+
+@keyframes animasiayologin {
+	0% {
+		opacity: .1;
+	}
+	20% {
+		opacity: .2;
+	}
+
+	40%{
+		opacity: .4; 
+	}
+	60% {
+		opacity: .6;
+	}
+	80% {
+		opacity: 0.8;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes login {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+}
+
+.login {
+	/*opacity: 0;*/
+	margin-top: 2%;
+	/*animation: login 2s .2s forwards;*/
+}	
+
+.atas-login {
+	background-color: #333;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom:5px solid salmon;
+}
+
+.input-login {
+	width: 300px;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 3px;
+	background-color: #ccc;
+	padding: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.inputan {
+	width: 270px;
+	margin-top: 5px;
+}
+.btn-register
+{
+	float: right;
+	width: 90px
+}
+
+.btn {
+     background-color: #333;
+    border-color: #333;
+    
+}
+.btn:hover {
+   background-color: salmon;
+    border-color: salmon;
+}
+
+.btn-login {
+	width: 90px;
+}
+
+.alert {
+	margin-top: 12%;
+}
+
+footer {
+	background-color: #333;
+	line-height:30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+footer p {
+	color: #fff;
+}
+
+footer p a {
+	color: salmon;
+}
