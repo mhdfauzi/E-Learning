@@ -1,0 +1,73 @@
+.atas-register {
+	color: #fff;
+	background-color: #333;
+	width: 400px;
+	margin: 0 auto;
+	padding:15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 5px solid salmon;
+	text-align: center;
+}
+
+.register {
+	margin-top: 5%;
+}
+
+.input-register {
+	width: 400px;
+	height: 440px;
+	background-color: #ccc;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 3px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+.inputan, .list-inputan {
+	width: 380px; 
+}
+
+
+.form-group {
+	margin-top: 5px;
+}
+
+
+.btn-login, .btn-register {
+	margin-top: 15px;
+	width: 90px;
+}
+
+.btn-login {
+	float: right;
+}
+
+footer {
+	background-color: #333;
+	line-height:30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.btn {
+     background-color: #333;
+    border-color: #333;
+
+}
+
+.btn:hover {
+   background-color: salmon;
+    border-color: salmon;
+}
+
+footer p {
+	color: #fff;
+}
+
+footer p a {
+	color: salmon;
+}

@@ -73,7 +73,14 @@
 			          </li>	
 			          <li><a href="about.jsp">About</a></li>
 			          <li><a href="">Feedback</a></li>
-			          <li><a href="sign_in.jsp">Sign In / Sign Up</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i></i> Login <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="loginadministrator.jsp">Administrator</a></li>
+                  <li><a href="loginlecturer.jsp">Lecturer</a></li>
+                  <li><a href="loginstudent.jsp">Student</a></li>
+            </ul>
+
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
